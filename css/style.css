@@ -234,11 +234,15 @@ p {
     float: left;
     transition: all 0.3s;
 }
+.header--scrolling{
+    background-color: rgb(58, 56, 56);
+}
 
 .header--scrolling .navbar__logo {
     height: 80px;
     background-color: inherit;
     background-size: 60px;
+    
 }
 
 @media(max-width:960px) {
